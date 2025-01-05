@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'image.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://Captain:Captain@localhost:5432/image')
+    'default': dj_database_url.parse('postgresql://root:3NtoU59MWaWp0GwLUnDlGAzOSCVyQ4S5@dpg-cttarr1u0jms73bgsl70-a/image_ha29')
 }
 
 # Password validation
